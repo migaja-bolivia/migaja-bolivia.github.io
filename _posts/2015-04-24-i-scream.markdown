@@ -1,9 +1,9 @@
 ---
 title:  "I scream"
 subtitle: "But do you scream?"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/e.jpg"
+author: "Migaja"
+avatar: "img/migaja.png"
+image: "img/5m.jpg"
 date:   2015-04-24 12:12:12
 ---
 
