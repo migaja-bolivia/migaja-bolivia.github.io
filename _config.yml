@@ -1,7 +1,7 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
+title: Migaja Pastelería
+description: Pastelería Migaja Bolivia
 keywords: Modern, Blogging, Fun
-author: Wferr
+author: Liz Viscarra
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://migaja-bolivia.github.io/" # the base hostname & protocol for your site
