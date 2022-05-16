@@ -7,6 +7,26 @@ image: "img/c.jpg"
 date:   2015-04-22 12:12:12
 ---
 
+<div class="container espacio">
+		<h1>Cotiza tu torta!</h1>
+		<form action="" accept-charset="utf-8" class="form">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<br>
+			<br>
+			<button type="submit" class="boton">Cotizar</button>
+		</form>
+	</div>
 ### Dolor sit amet?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
 
