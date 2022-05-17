@@ -1,3 +1,3 @@
 function calcular(){
-    document.getElementById("resultado").innerHTML="700";
+    document.getElementById("resultado").innerHTML="700"+"Bs.";
 };
