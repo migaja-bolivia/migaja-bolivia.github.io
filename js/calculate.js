@@ -6,7 +6,3 @@ function calcular(){
     },3000)
     
 };
-
-window.onload=()=>{
-    document.getElementById("loading").style.display="none";
-};
