@@ -13,7 +13,6 @@ function calcular(){
     console.log("porcion4",porcion4);
     console.log("porcion5",porcion5);
     console.log("porcion6",porcion6);
-    console.log("message");
     setTimeout(function(){
         document.getElementById("loading").style.display="none";
         document.getElementById("resultado").innerHTML="700"+"Bs.";
