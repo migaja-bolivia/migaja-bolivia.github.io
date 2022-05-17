@@ -18,39 +18,7 @@ layout: compress
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
     <![endif]-->
-    <style>
-        .entrada{
-			padding:15px;
-			border-radius: 10px;
-			border-style: none;
-			width:95%;
-			background-color: #D0C9C0;
-		}
-		.espacio{
-			margin-left: 30%;
-			margin-right: 30%;
-			background-color: white;
-			border-style: none;
-			border-radius: 15px;
-			padding: 5px 30px 30px 30px;
-		}
-
-		.boton{
-			width: 100%;
-			background-color: #2155CD;
-			border-style: none;
-			border-radius: 15px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			color: white;
-			font-size: 20px;
-		}
-        @media (max-width: 767px) {
-            .espacio {
-            display: none;
-            }
-        }
-    </style>
+    
     <script>
         if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
             var root = document.getElementsByTagName('html')[0];
@@ -112,7 +80,28 @@ layout: compress
         </div>
     </div>
     <!-- /container -->
-    
+    <br><br><br><br><br>
+    <div class="container espacio">
+		<h1>Cotiza tu torta!</h1>
+		<form action="" accept-charset="utf-8" class="form">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<h3>Porciones:</h3>
+			<input class="entrada" type="text" name="porciones" placeholder="Cantidad de porciones">
+			<br>
+			<br>
+			<button type="submit" class="boton">Cotizar</button>
+		</form>
+	</div>
+    <br><br><br>
 </div>
 <!-- JS -->
 <script src="js/vendors/trianglify.min.js"></script>
