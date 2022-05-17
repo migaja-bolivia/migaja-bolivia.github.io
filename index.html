@@ -47,6 +47,26 @@ layout: compress
             display: none;
             }
         }
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
@@ -162,7 +182,7 @@ layout: compress
 			<button type='button' class="boton" onclick="calcular()">Cotizar</button>
             <br>
             <br>
-            <h3>Valor aproximado de la torta: <bold id="resultado" value="???"></bold></h3>
+            <h3>Valor aproximado de la torta: <bold id="resultado" value="???"><div class="loader"></div></bold></h3>
 		</form>
 	</div>
     <br><br><br>
